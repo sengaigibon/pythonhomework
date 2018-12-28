@@ -45,5 +45,5 @@ for x in list1:
 else: 
     print(finalList)
 
-# finalList = [x for x in list1 if x in list2 if x not in finalList]
-# print(finalList)
+# after exercise 14
+print(set([x for x in list1 if x in list2]))
